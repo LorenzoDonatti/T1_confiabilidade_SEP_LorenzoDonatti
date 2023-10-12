@@ -1,0 +1,4180 @@
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    1  PRIORIDADE  1 Contingência de 839 para 1047                 
+
+ CIRCUITO da Barra   839 CASCAV-PR230  p/ Barra  1047 SOSORIO-230  Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    136.29   839     49.32   839
+      2  2    1.0000 60.000      1.05  1047      2.21   839
+      3  3    1.0000 60.000      0.00  1047**********   939
+      4  4    1.0000 60.000      0.00   965**********   939
+      5  5    1.0000 60.000      0.00  1030      0.02   955
+      6  6    1.0000 60.000      0.00  1030      0.00   955
+      7  7    1.0000 60.000      0.00   939     30.12  -955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      7  7  0 1.0000 60.000      0.00  1030      0.02   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    1  PRIORIDADE  1 Contingência de 839 para 1047                 
+
+ CIRCUITO da Barra   839 CASCAV-PR230  p/ Barra  1047 SOSORIO-230  Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    1  PRIORIDADE  1 Contingência de 839 para 1047                 
+
+ CIRCUITO da Barra   839 CASCAV-PR230  p/ Barra  1047 SOSORIO-230  Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -114.3   465.0         0.0   889.4
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   14.2  -465.0  -104.7   465.0         0.0   873.3
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -674.8   800.0         0.0  1348.9
+    955     -2  1.011   -66.5  3243.4  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3274.5
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.9  -580.0  -214.3   580.0         0.0  1034.4
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0     9.4   570.0         0.0     9.4
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.6  -525.0  -239.8   525.0         0.0   239.8
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2   -12.2    12.2         0.0   122.2
+    963     -1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -11.2   -80.0   -80.0    80.0   I     0.0   180.7
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -7.7  -130.0   -45.4   130.0         0.0   167.3
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     1.2  -450.0    56.9   450.0         0.0    56.9
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    2  PRIORIDADE  1 Contingência de 839 para 2458                 
+
+ CIRCUITO da Barra   839 CASCAV-PR230  p/ Barra  2458 CASCOE-PR230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    169.49  2458     13.85   839
+      2  2    1.0000 60.000      0.16   839      0.72  2458
+      3  3    1.0000 60.000      0.00   896      0.00  2458
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      3  3  0 1.0000 60.000      0.00   959      0.00   895     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    2  PRIORIDADE  1 Contingência de 839 para 2458                 
+
+ CIRCUITO da Barra   839 CASCAV-PR230  p/ Barra  2458 CASCOE-PR230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -114.9   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.8  -465.0  -132.0   465.0         0.0   877.0
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -680.2   800.0         0.0  1351.6
+    955     -2  1.011   -66.5  3242.7  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.8
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.0  -580.0  -219.2   580.0         0.0  1035.5
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0     8.9   570.0         0.0     8.9
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.4  -525.0  -250.9   525.0         0.0   250.9
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2   -12.2    12.2   I     0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -79.1    80.0         0.0   180.3
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.6  -130.0   -42.4   130.0         0.0   166.5
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.2  -450.0    71.6   450.0         0.0    71.6
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    3  PRIORIDADE  1 Contingência de 856 para 933                  
+
+ CIRCUITO da Barra   856 SEGRED-PR525  p/ Barra   933 AREIA--PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    716.42   856      0.00   938
+      2  2    1.0000 60.000      1.97   933     16.89   999
+      3  3    1.0000 60.000      0.01  1030**********   939
+      4  4    1.0000 60.000      0.00   939**********   939
+      5  5    1.0000 60.000      0.00   938      0.00   938
+      6  6    1.0000 60.000      0.00   895     45.58  -955
+      7  7    1.0000 60.000      0.00  1030**********   955
+      8  8    1.0000 60.000      2.91  1030      4.09   964
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      8  8  0 1.0000 60.000      0.00  1210      0.00   979     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    3  PRIORIDADE  1 Contingência de 856 para 933                  
+
+ CIRCUITO da Barra   856 SEGRED-PR525  p/ Barra   933 AREIA--PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    955 CNOVOS-SC525   955 CNOVOS-SC525 DISC   0.970  1.010  1.040 CENT -100.0  
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    3  PRIORIDADE  1 Contingência de 856 para 933                  
+
+ CIRCUITO da Barra   856 SEGRED-PR525  p/ Barra   933 AREIA--PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525   15.1  -465.0  -153.7   465.0         0.0   895.3
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   16.3  -465.0  -128.5   465.0         0.0   876.5
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    4.1  -800.0  -561.6   800.0         0.0  1296.0
+    955      2  1.010   -66.5  3254.2  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -403.5   450.0         0.0  3279.1
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425    0.4  -580.0  -139.1   580.0         0.0  1021.5
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525    0.1  -570.0    30.0   570.0         0.0    30.0
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525   11.6  -525.0  -172.1   525.0         0.0   172.1
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -14.2   -12.2   -12.1    12.2         0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.3   -80.0   -78.9    80.0         0.0   180.2
+   1010     -1  1.003     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.5   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -5.9  -130.0   -42.0   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     4.1  -450.0    76.6   450.0         0.0    76.6
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    4  PRIORIDADE  1 Contingência de 856 para 1060                 
+
+ CIRCUITO da Barra   856 SEGRED-PR525  p/ Barra  1060 SSANTI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    165.58   856      0.00   938
+      2  2    1.0000 60.000      0.19   933      0.90   999
+      3  3    1.0000 60.000      0.00  1030      0.01   955
+      4  4    1.0000 60.000      0.00  1030      0.00   955
+      5  5    1.0000 60.000      0.00   895     24.43  -955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00  1030      0.01   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    4  PRIORIDADE  1 Contingência de 856 para 1060                 
+
+ CIRCUITO da Barra   856 SEGRED-PR525  p/ Barra  1060 SSANTI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    4  PRIORIDADE  1 Contingência de 856 para 1060                 
+
+ CIRCUITO da Barra   856 SEGRED-PR525  p/ Barra  1060 SSANTI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525   10.2  -465.0     8.8   465.0         0.0   882.0
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.2  -465.0  -134.6   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    7.0  -800.0  -664.3   800.0         0.0  1343.7
+    955     -2  1.011   -66.5  3242.6  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.6
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.3  -580.0  -234.7   580.0         0.0  1038.8
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.3  -570.0    15.3   570.0         0.0    15.3
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    7.7  -525.0  -288.0   525.0         0.0   288.0
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.1   -12.2    -9.4    12.2         0.0   122.0
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -11.0   -80.0   -78.9    80.0         0.0   180.2
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.0   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.6  -130.0   -42.0   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.4  -450.0    68.5   450.0         0.0    68.5
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    5  PRIORIDADE  1 Contingência de 896 para 897                  
+
+ CIRCUITO da Barra   896 CASCOE-PR525  p/ Barra   897 SCAXIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     43.55   897     97.49   896
+      2  2    1.0000 60.000      1.03   896**********   939
+      3  3    1.0000 60.000      1.96   896     15.77   896
+      4  4    1.0000 60.000      0.00  2458      0.02   955
+      5  5    1.0000 60.000      0.00   939**********   955
+      6  6    1.0000 60.000      0.00   939**********   955
+      7  7    1.0000 60.000      0.00  1030**********   939
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      7  7  0 1.0000 60.000      0.00   938      0.00   938     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    5  PRIORIDADE  1 Contingência de 896 para 897                  
+
+ CIRCUITO da Barra   896 CASCOE-PR525  p/ Barra   897 SCAXIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    5  PRIORIDADE  1 Contingência de 896 para 897                  
+
+ CIRCUITO da Barra   896 CASCOE-PR525  p/ Barra   897 SCAXIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -114.7   465.0         0.0   889.4
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   14.1  -465.0  -149.8   465.0         0.0   879.9
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -639.7   800.0         0.0  1331.7
+    955     -2  1.011   -66.5  3242.8  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.8
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.9  -580.0  -218.4   580.0         0.0  1035.3
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0     8.5   570.0         0.0     8.5
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -163.6   525.0         0.0   163.6
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2   -12.2    12.2         0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -79.2    80.0         0.0   180.3
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.6  -130.0   -42.5   130.0         0.0   166.5
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.2  -450.0    68.3   450.0         0.0    68.3
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    6  PRIORIDADE  1 Contingência de 933 para 895                  
+
+ CIRCUITO da Barra   933 AREIA--PR525  p/ Barra   895 BATEIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    663.82   933     24.45   895
+      2  2    1.0000 60.000      6.82   933     26.52   959
+      3  3    1.0000 60.000      0.03   814**********   939
+      4  4    1.0000 60.000      3.51  1030     11.13   895
+      5  5    1.0000 60.000      0.00   939**********   939
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00   938      0.00   938     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    6  PRIORIDADE  1 Contingência de 933 para 895                  
+
+ CIRCUITO da Barra   933 AREIA--PR525  p/ Barra   895 BATEIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    6  PRIORIDADE  1 Contingência de 933 para 895                  
+
+ CIRCUITO da Barra   933 AREIA--PR525  p/ Barra   895 BATEIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525   10.5  -465.0  -116.7   465.0         0.0   889.7
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   14.9  -465.0  -134.4   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    8.2  -800.0  -343.8   800.0         0.0  1217.6
+    955      2  1.010   -66.5  3258.3  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -326.8   450.0         0.0  3274.6
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.5  -580.0  -191.1   580.0         0.0  1029.9
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.1  -570.0    31.3   570.0         0.0    31.3
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    9.5  -525.0  -232.7   525.0         0.0   232.7
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -15.9   -12.2    12.2    12.2   S     0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.6   -80.0   -74.5    80.0         0.0   178.3
+   1010     -1  0.999     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -14.6   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -5.8  -130.0   -40.4   130.0         0.0   166.0
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     4.7  -450.0    72.2   450.0         0.0    72.2
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    7  PRIORIDADE  1 Contingência de 933 para 955                  
+
+ CIRCUITO da Barra   933 AREIA--PR525  p/ Barra   955 CNOVOS-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    564.46   933     58.45   955
+      2  2    1.0000 60.000      1.88   938      4.70   955
+      3  3    1.0000 60.000      0.00   895**********   939
+      4  4    1.0000 60.000      0.74  1030      1.05   964
+      5  5    1.0000 60.000      0.00   939**********   939
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00   938      0.00   938     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    7  PRIORIDADE  1 Contingência de 933 para 955                  
+
+ CIRCUITO da Barra   933 AREIA--PR525  p/ Barra   955 CNOVOS-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    955 CNOVOS-SC525   955 CNOVOS-SC525 DISC   0.970  1.010  1.040 CENT   -0.0  
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    7  PRIORIDADE  1 Contingência de 933 para 955                  
+
+ CIRCUITO da Barra   933 AREIA--PR525  p/ Barra   955 CNOVOS-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525   13.5  -465.0  -118.0   465.0         0.0   889.9
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   17.4  -465.0  -133.7   465.0         0.0   877.3
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525   11.7  -800.0  -515.8   800.0         0.0  1276.8
+    955      2  1.010   -66.5  3254.7  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -435.9   450.0         0.0  3283.7
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425    0.5  -580.0  -137.8   580.0         0.0  1021.3
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525    0.1  -570.0    30.0   570.0         0.0    30.0
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525   11.9  -525.0  -186.3   525.0         0.0   186.3
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -11.3   -12.2    12.2    12.2   S     0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230   -9.7   -80.0   -75.3    80.0         0.0   178.6
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -11.8   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -4.0  -130.0   -36.7   130.0         0.0   165.1
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     7.4  -450.0    74.0   450.0         0.0    74.0
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    8  PRIORIDADE  1 Contingência de 933 para 959                  
+
+ CIRCUITO da Barra   933 AREIA--PR525  p/ Barra   959 CURITI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    704.35   933     12.98   959
+      2  2    1.0000 60.000      7.94   933     21.24   895
+      3  3    1.0000 60.000      0.07   895**********   939
+      4  4    1.0000 60.000      4.04  1030     12.41   895
+      5  5    1.0000 60.000      0.00  1210**********   939
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00   938      0.00   938     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    8  PRIORIDADE  1 Contingência de 933 para 959                  
+
+ CIRCUITO da Barra   933 AREIA--PR525  p/ Barra   959 CURITI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    8  PRIORIDADE  1 Contingência de 933 para 959                  
+
+ CIRCUITO da Barra   933 AREIA--PR525  p/ Barra   959 CURITI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525   10.6  -465.0  -116.8   465.0         0.0   889.7
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   15.0  -465.0  -134.4   465.0         0.0   877.3
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    8.3  -800.0  -317.0   800.0         0.0  1210.2
+    955      2  1.010   -66.5  3261.6  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -304.9   450.0         0.0  3275.8
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.5  -580.0  -189.2   580.0         0.0  1029.5
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.1  -570.0    31.2   570.0         0.0    31.2
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    9.6  -525.0  -231.3   525.0         0.0   231.3
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -16.1   -12.2    12.2    12.2   S     0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.6   -80.0   -74.0    80.0         0.0   178.1
+   1010     -1  0.999     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -14.7   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -5.8  -130.0   -40.2   130.0         0.0   166.0
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     4.7  -450.0    72.5   450.0         0.0    72.5
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    9  PRIORIDADE  1 Contingência de 934 para 960                  
+
+ CIRCUITO da Barra   934 AREIA-230     p/ Barra   960 CURITI-PR230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     70.26   934     26.61   934
+      2  2    1.0000 60.000      0.10   960      0.26   934
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      2  2  0 1.0000 60.000      0.00   895      0.00   895     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA    9  PRIORIDADE  1 Contingência de 934 para 960                  
+
+ CIRCUITO da Barra   934 AREIA-230     p/ Barra   960 CURITI-PR230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.2  -465.0  -115.1   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.9  -465.0  -134.9   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.6  -800.0  -646.3   800.0         0.0  1334.9
+    955     -2  1.011   -66.5  3242.1  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.2
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.9  -580.0  -217.3   580.0         0.0  1035.1
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0    13.2   570.0         0.0    13.2
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -250.3   525.0         0.0   250.3
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.5   -12.2    -1.1    12.2         0.0   121.6
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.8   -80.0   -78.4    80.0         0.0   180.0
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.2   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.3  -130.0   -41.6   130.0         0.0   166.3
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.8  -450.0    72.6   450.0         0.0    72.6
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   10  PRIORIDADE  1 Contingência de 934 para 1047                 
+
+ CIRCUITO da Barra   934 AREIA-230     p/ Barra  1047 SOSORIO-230  Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000      1.90   934     25.11   934
+      2  2    1.0000 60.000      0.00   933      0.00   934
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      2  2  0 1.0000 60.000      0.00   933      0.00   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   10  PRIORIDADE  1 Contingência de 934 para 1047                 
+
+ CIRCUITO da Barra   934 AREIA-230     p/ Barra  1047 SOSORIO-230  Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -115.0   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.8  -465.0  -134.7   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -657.8   800.0         0.0  1340.5
+    955     -2  1.011   -66.5  3242.3  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.4
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.0  -580.0  -219.8   580.0         0.0  1035.6
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.3  -570.0     8.9   570.0         0.0     8.9
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.4  -525.0  -252.2   525.0         0.0   252.2
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2   -11.6    12.2         0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -78.9    80.0         0.0   180.2
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.5  -130.0   -42.0   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.5  -450.0    74.2   450.0         0.0    74.2
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   11  PRIORIDADE  1 Contingência de 938 para 946                  
+
+ CIRCUITO da Barra   938 BLUMEN-SC525  p/ Barra   946 BIGUAC-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     12.35   938    192.03   938
+      2  2    1.0000 60.000      0.33   947**********   939
+      3  3    1.0000 60.000      2.22   939      3.72   939
+      4  4    1.0000 60.000      0.01   939      6.95   955
+      5  5    1.0000 60.000      0.00  1030**********   939
+      6  6    1.0000 60.000      0.51  1030      0.67   964
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      6  6  0 1.0000 60.000      0.00   947      0.00   979     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   11  PRIORIDADE  1 Contingência de 938 para 946                  
+
+ CIRCUITO da Barra   938 BLUMEN-SC525  p/ Barra   946 BIGUAC-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   11  PRIORIDADE  1 Contingência de 938 para 946                  
+
+ CIRCUITO da Barra   938 BLUMEN-SC525  p/ Barra   946 BIGUAC-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -115.1   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.8  -465.0  -134.7   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.6  -800.0  -571.9   800.0         0.0  1300.5
+    955      2  1.010   -66.5  3243.4  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -442.7   450.0         0.0  3273.5
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.9  -580.0  -214.3   580.0         0.0  1034.4
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.3  -570.0    32.7   570.0         0.0    32.7
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -251.4   525.0         0.0   251.4
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.5   -12.2    11.7    12.2         0.0   122.2
+    963     -1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -80.0    80.0   I     0.0   180.7
+   1010     -1  1.003     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.2   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.4  -130.0   -42.2   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.6  -450.0    69.7   450.0         0.0    69.7
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   12  PRIORIDADE  1 Contingência de 938 para 955                  
+
+ CIRCUITO da Barra   938 BLUMEN-SC525  p/ Barra   955 CNOVOS-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    623.43   938    151.32   955
+      2  2    1.0000 60.000      6.53   938     17.71   946
+      3  3    1.0000 60.000      0.02   938**********   939
+      4  4    1.0000 60.000     13.36  1030     16.85   964
+      5  5    1.0000 60.000      0.02  1210**********   939
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00   938      0.00   938     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   12  PRIORIDADE  1 Contingência de 938 para 955                  
+
+ CIRCUITO da Barra   938 BLUMEN-SC525  p/ Barra   955 CNOVOS-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   12  PRIORIDADE  1 Contingência de 938 para 955                  
+
+ CIRCUITO da Barra   938 BLUMEN-SC525  p/ Barra   955 CNOVOS-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    7.3  -465.0  -112.2   465.0         0.0   889.1
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   12.3  -465.0  -134.9   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    4.4  -800.0  -371.4   800.0         0.0  1225.6
+    955      2  1.010   -66.5  3260.4  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -145.6   450.0         0.0  3263.7
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.6  -580.0  -241.6   580.0         0.0  1040.4
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.4  -570.0    35.8   570.0         0.0    35.8
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    7.0  -525.0  -273.0   525.0         0.0   273.0
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -20.7   -12.2    12.2    12.2   S     0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -11.6   -80.0   -68.9    80.0         0.0   176.0
+   1010     -1  1.001     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -17.8   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -7.6  -130.0   -43.5   130.0         0.0   166.8
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     1.9  -450.0    69.5   450.0         0.0    69.5
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   13  PRIORIDADE  1 Contingência de 938 para 959                  
+
+ CIRCUITO da Barra   938 BLUMEN-SC525  p/ Barra   959 CURITI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    699.39   959     90.23   938
+      2  2    1.0000 60.000      5.24   933     21.60   955
+      3  3    1.0000 60.000      0.08   895**********   939
+      4  4    1.0000 60.000      9.00  1030     12.27   964
+      5  5    1.0000 60.000      0.01  1210**********   939
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00   938      0.00   938     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   13  PRIORIDADE  1 Contingência de 938 para 959                  
+
+ CIRCUITO da Barra   938 BLUMEN-SC525  p/ Barra   959 CURITI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   13  PRIORIDADE  1 Contingência de 938 para 959                  
+
+ CIRCUITO da Barra   938 BLUMEN-SC525  p/ Barra   959 CURITI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525   11.5  -465.0  -117.5   465.0         0.0   889.8
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   15.8  -465.0  -134.3   465.0         0.0   877.3
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    9.4  -800.0  -735.3   800.0         0.0  1380.2
+    955      2  1.010   -66.5  3274.1  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0   -31.5   450.0         0.0  3274.2
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.2  -580.0  -172.7   580.0         0.0  1026.6
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.1  -570.0    30.6   570.0         0.0    30.6
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525   10.4  -525.0  -216.4   525.0         0.0   216.4
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -17.7   -12.2    12.2    12.2         0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.4   -80.0   -69.8    80.0         0.0   176.4
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -16.0   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -5.2  -130.0   -38.7   130.0         0.0   165.6
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     5.7  -450.0    71.9   450.0         0.0    71.9
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   14  PRIORIDADE  1 Contingência de 947 para 939                  
+
+ CIRCUITO da Barra   947 BIGUAC-SC230  p/ Barra   939 BLUMEN-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000      5.08   947     14.81   947
+      2  2    1.0000 60.000      0.01   938      0.00   946
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      2  2  0 1.0000 60.000      0.00   938      0.00   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   14  PRIORIDADE  1 Contingência de 947 para 939                  
+
+ CIRCUITO da Barra   947 BIGUAC-SC230  p/ Barra   939 BLUMEN-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -115.0   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.8  -465.0  -134.7   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -678.9   800.0         0.0  1351.0
+    955     -2  1.011   -66.5  3242.3  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.4
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.0  -580.0  -219.1   580.0         0.0  1035.4
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.3  -570.0    12.8   570.0         0.0    12.8
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.4  -525.0  -252.2   525.0         0.0   252.2
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2    10.7    12.2         0.0   122.1
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -78.4    80.0         0.0   180.0
+   1010     -1  1.001     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.5  -130.0   -42.0   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.5  -450.0    69.6   450.0         0.0    69.6
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   15  PRIORIDADE  1 Contingência de 955 para 946                  
+
+ CIRCUITO da Barra   955 CNOVOS-SC525  p/ Barra   946 BIGUAC-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    665.30   946    224.67   955
+      2  2    1.0000 60.000      6.91   946     37.80   938
+      3  3    1.0000 60.000      0.02   947**********   939
+      4  4    1.0000 60.000     18.65  1030     23.43   964
+      5  5    1.0000 60.000      0.04  1210**********   939
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00   938      0.00   938     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   15  PRIORIDADE  1 Contingência de 955 para 946                  
+
+ CIRCUITO da Barra   955 CNOVOS-SC525  p/ Barra   946 BIGUAC-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   15  PRIORIDADE  1 Contingência de 955 para 946                  
+
+ CIRCUITO da Barra   955 CNOVOS-SC525  p/ Barra   946 BIGUAC-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    7.4  -465.0  -112.5   465.0         0.0   889.2
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   12.4  -465.0  -134.8   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    4.6  -800.0  -338.2   800.0         0.0  1216.0
+    955      2  1.010   -66.5  3274.1  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0   -12.1   450.0         0.0  3274.1
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.6  -580.0  -235.7   580.0         0.0  1039.1
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.4  -570.0    35.8   570.0         0.0    35.8
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    7.1  -525.0  -271.1   525.0         0.0   271.1
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -20.6   -12.2    12.2    12.2   S     0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -11.8   -80.0   -63.4    80.0         0.0   174.0
+   1010     -1  1.000     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -21.3   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -7.7  -130.0   -43.1   130.0         0.0   166.7
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     2.0  -450.0    69.9   450.0         0.0    69.9
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   16  PRIORIDADE  1 Contingência de 955 para 964                  
+
+ CIRCUITO da Barra   955 CNOVOS-SC525  p/ Barra   964 CAXIAS-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    822.27   964    107.53   964
+      2  2    1.0000 60.000     15.08   995     22.85   964
+      3  3    1.0000 60.000      0.14  1210**********   939
+      4  4    1.0000 60.000      8.41  1030     34.12   964
+      5  5    1.0000 60.000      0.01   939      0.04  1210
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00  1210      0.00  1210     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   16  PRIORIDADE  1 Contingência de 955 para 964                  
+
+ CIRCUITO da Barra   955 CNOVOS-SC525  p/ Barra   964 CAXIAS-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    7.4  -465.0  -116.9   465.0         0.0   889.7
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   11.8  -465.0  -133.6   465.0         0.0   877.2
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    5.2  -800.0  -716.6   800.0         0.0  1370.3
+    955      2  1.010   -66.5  3268.7  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -318.9   450.0         0.0  3284.3
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -3.6  -580.0   310.3   580.0         0.0  1058.5
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.9  -570.0    51.9   570.0         0.0    51.9
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    6.5  -525.0  -232.8   525.0         0.0   232.8
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939     -1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -14.0   -12.2    12.2    12.2   S     0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -18.9   -80.0   -76.4    80.0         0.0   179.1
+   1010     -1  0.998     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -15.7   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230  -11.9  -130.0   -30.1   130.0         0.0   163.8
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     1.0  -450.0    81.7   450.0         0.0    81.7
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   16  PRIORIDADE  1 Contingência de 955 para 964                  
+
+ CIRCUITO da Barra   955 CNOVOS-SC525  p/ Barra   964 CAXIAS-RS525 Circ  1 (DESLIGAR)
+
+ MONITORACAO DE TENSAO
+
+ X----------------------X--------------------X--------X--------X--------X---------------X
+           BARRA                TENSAO        VIOLACAO SHUNTBAR SHUNTLIN    SEVERIDADE
+   NUM.     NOME     ARE   MIN    MOD.   MAX    (PU)    (Mvar)   (Mvar)
+ X-----X------------X---X------X------X------X--------X--------X--------X---------------X
+
+    976 GRAVAT-RS525   1  0.950  0.933  1.050   -0.017                   **
+    964 CAXIAS-RS525   1  0.950  0.933  1.050   -0.017                   **
+    979 NSRITA-RS525   1  0.950  0.930  1.050   -0.020                   ***
+
+ ------ IND SEVER.       9.8 -------
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   17  PRIORIDADE  1 Contingência de 955 para 979                  
+
+ CIRCUITO da Barra   955 CNOVOS-SC525  p/ Barra   979 NSRITA-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    863.20   979    217.87   955
+      2  2    1.0000 60.000     21.41   979     25.23   964
+      3  3    1.0000 60.000      0.26  1210**********   939
+ ................................................................
+
+
+
+
+ ****** SISTEMA CA DIVERGENTE ******
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      3  3  0 1.0000 60.000      0.26  1210**********   939     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   18  PRIORIDADE  1 Contingência de 959 para 895                  
+
+ CIRCUITO da Barra   959 CURITI-PR525  p/ Barra   895 BATEIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    517.35   895    142.92   895
+      2  2    1.0000 60.000      3.63   959      5.35   895
+      3  3    1.0000 60.000      0.00   895**********   939
+      4  4    1.0000 60.000      0.00   814      1.32   895
+      5  5    1.0000 60.000      0.00  1030**********   939
+      6  6    1.0000 60.000      0.00   938      0.00   938
+      7  7    1.0000 60.000      0.00   959     18.44  -955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      7  7  0 1.0000 60.000      0.00  1030      0.01   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   18  PRIORIDADE  1 Contingência de 959 para 895                  
+
+ CIRCUITO da Barra   959 CURITI-PR525  p/ Barra   895 BATEIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   18  PRIORIDADE  1 Contingência de 959 para 895                  
+
+ CIRCUITO da Barra   959 CURITI-PR525  p/ Barra   895 BATEIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.2  -465.0  -115.1   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.9  -465.0  -134.7   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.6  -800.0  -634.6   800.0         0.0  1329.3
+    955     -2  1.010   -66.5  3245.0  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3276.1
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.9  -580.0  -216.3   580.0         0.0  1034.9
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0    18.4   570.0         0.0    18.4
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -250.6   525.0         0.0   250.6
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.5   -12.2    10.2    12.2         0.0   122.0
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -78.4    80.0         0.0   180.0
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.3   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.4  -130.0   -41.8   130.0         0.0   166.3
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.6  -450.0    69.9   450.0         0.0    69.9
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   19  PRIORIDADE  1 Contingência de 960 para 1015                 
+
+ CIRCUITO da Barra   960 CURITI-PR230  p/ Barra  1015 JOINOR-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    183.12   960     29.94  1015
+      2  2    1.0000 60.000      1.46  1015      3.44  1015
+      3  3    1.0000 60.000      0.00  1015**********   939
+      4  4    1.0000 60.000      0.04   939**********   939
+      5  5    1.0000 60.000      0.00  1030**********   939
+      6  6    1.0000 60.000      0.00   939**********   939
+      7  7    1.0000 60.000      0.00  1030      0.00   964
+      8  8    1.0000 60.000      0.00   976      2.71  -955
+      9  9    1.0000 60.000      0.00   959**********   955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      9  9  0 1.0000 60.000      0.00  1030      0.00   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   19  PRIORIDADE  1 Contingência de 960 para 1015                 
+
+ CIRCUITO da Barra   960 CURITI-PR230  p/ Barra  1015 JOINOR-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   19  PRIORIDADE  1 Contingência de 960 para 1015                 
+
+ CIRCUITO da Barra   960 CURITI-PR230  p/ Barra  1015 JOINOR-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.2  -465.0  -115.2   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.9  -465.0  -134.7   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.7  -800.0  -656.9   800.0         0.0  1340.1
+    955     -2  1.010   -66.5  3247.9  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3279.0
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.9  -580.0  -213.9   580.0         0.0  1034.4
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0    30.5   570.0         0.0    30.5
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -250.2   525.0         0.0   250.2
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.8   -12.2    11.9    12.2         0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -78.3    80.0         0.0   179.9
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.3   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.4  -130.0   -41.8   130.0         0.0   166.3
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.7  -450.0    69.8   450.0         0.0    69.8
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   20  PRIORIDADE  1 Contingência de 964 para 976                  
+
+ CIRCUITO da Barra   964 CAXIAS-RS525  p/ Barra   976 GRAVAT-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    728.67   964     74.52   976
+      2  2    1.0000 60.000     42.19   995     57.69   979
+      3  3    1.0000 60.000      1.61  1210      0.80   979
+      4  4    1.0000 60.000     21.13  1210    160.33  1210
+      5  5    1.0000 60.000      7.48  1210      1.72   979
+      6  6    1.0000 60.000      0.01  1210**********   963
+      7  7    1.0000 60.000      9.06  1030     64.24  1210
+      8  8    1.0000 60.000      0.03  1210      0.31  1210
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      8  8  0 1.0000 60.000      0.00  1210      0.00  1210     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   20  PRIORIDADE  1 Contingência de 964 para 976                  
+
+ CIRCUITO da Barra   964 CAXIAS-RS525  p/ Barra   976 GRAVAT-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    939 BLUMEN-SC230   939 BLUMEN-SC230 DISC   0.950  1.000  1.020 CENT  250.0  
+    955 CNOVOS-SC525   955 CNOVOS-SC525 DISC   0.970  1.010  1.040 CENT   -0.0  
+   1210 GRAVA2-RS230  1210 GRAVA2-RS230 DISC   0.970  1.000  1.020 CENT  400.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   20  PRIORIDADE  1 Contingência de 964 para 976                  
+
+ CIRCUITO da Barra   964 CAXIAS-RS525  p/ Barra   976 GRAVAT-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    8.9  -465.0  -115.6   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.6  -465.0  -135.3   465.0         0.0   877.5
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.4  -800.0  -684.0   800.0         0.0  1353.5
+    955      2  1.010   -66.5  3263.1  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -382.1   450.0         0.0  3285.4
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.5  -580.0    43.6   580.0         0.0  1012.9
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.4  -570.0    35.3   570.0         0.0    35.3
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.2  -525.0  -241.6   525.0         0.0   241.6
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.2   -12.2   -11.9    12.2         0.0   122.2
+    963     -1  1.001     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230   -6.3   -80.0   -80.0    80.0   I     0.0   180.7
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -11.8   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -3.8  -130.0   -49.1   130.0         0.0   168.3
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     4.0  -450.0    61.6   450.0         0.0    61.6
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   20  PRIORIDADE  1 Contingência de 964 para 976                  
+
+ CIRCUITO da Barra   964 CAXIAS-RS525  p/ Barra   976 GRAVAT-RS525 Circ  1 (DESLIGAR)
+
+ MONITORACAO DE TENSAO
+
+ X----------------------X--------------------X--------X--------X--------X---------------X
+           BARRA                TENSAO        VIOLACAO SHUNTBAR SHUNTLIN    SEVERIDADE
+   NUM.     NOME     ARE   MIN    MOD.   MAX    (PU)    (Mvar)   (Mvar)
+ X-----X------------X---X------X------X------X--------X--------X--------X---------------X
+
+    976 GRAVAT-RS525   1  0.950  0.925  1.050   -0.025                   ***
+    979 NSRITA-RS525   1  0.950  0.920  1.050   -0.030                   ***
+
+ ------ IND SEVER.      15.1 -------
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   21  PRIORIDADE  1 Contingência de 965 para 1057                 
+
+ CIRCUITO da Barra   965 CAXIAS-RS230  p/ Barra  1057 SIDERO-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     17.00   965     23.03  1057
+      2  2    1.0000 60.000      0.69  1057**********   939
+      3  3    1.0000 60.000      0.00  1010**********   939
+      4  4    1.0000 60.000      0.00  1030**********   939
+      5  5    1.0000 60.000      0.00   939**********   939
+      6  6    1.0000 60.000      0.00  1030      0.00   964
+      7  7    1.0000 60.000      0.00   976     15.70  -955
+      8  8    1.0000 60.000      0.00   976**********   955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      8  8  0 1.0000 60.000      0.00  1030      0.00   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   21  PRIORIDADE  1 Contingência de 965 para 1057                 
+
+ CIRCUITO da Barra   965 CAXIAS-RS230  p/ Barra  1057 SIDERO-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   21  PRIORIDADE  1 Contingência de 965 para 1057                 
+
+ CIRCUITO da Barra   965 CAXIAS-RS230  p/ Barra  1057 SIDERO-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -114.9   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.8  -465.0  -134.8   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -673.4   800.0         0.0  1348.2
+    955     -2  1.010   -66.5  3242.7  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.8
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.9  -580.0  -218.0   580.0         0.0  1035.2
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0    20.6   570.0         0.0    20.6
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.4  -525.0  -252.7   525.0         0.0   252.7
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.4   -12.2    10.5    12.2         0.0   122.1
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.8   -80.0   -75.3    80.0         0.0   178.7
+   1010     -1  0.979     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.8   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.4  -130.0   -42.2   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.5  -450.0    69.4   450.0         0.0    69.4
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   22  PRIORIDADE  1 Contingência de 976 para 979                  
+
+ CIRCUITO da Barra   976 GRAVAT-RS525  p/ Barra   979 NSRITA-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    350.78   979    259.51   979
+      2  2    1.0000 60.000     11.57   964     11.98   964
+      3  3    1.0000 60.000      3.34  1210      3.94  1210
+      4  4    1.0000 60.000      0.00   976**********   955
+      5  5    1.0000 60.000      4.46  1030      5.20   946
+      6  6    1.0000 60.000      0.00  1210**********   963
+      7  7    1.0000 60.000      0.00   965      0.00   965
+      8  8    1.0000 60.000      0.00   895     10.90 -1210
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      8  8  0 1.0000 60.000      0.04  1210      0.04  1210     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   22  PRIORIDADE  1 Contingência de 976 para 979                  
+
+ CIRCUITO da Barra   976 GRAVAT-RS525  p/ Barra   979 NSRITA-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+   1210 GRAVA2-RS230  1210 GRAVA2-RS230 DISC   0.970  0.996  1.020 CENT  200.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   22  PRIORIDADE  1 Contingência de 976 para 979                  
+
+ CIRCUITO da Barra   976 GRAVAT-RS525  p/ Barra   979 NSRITA-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -114.7   465.0         0.0   889.4
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.8  -465.0  -134.4   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -674.2   800.0         0.0  1348.6
+    955      2  1.010   -66.5  3249.7  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -373.1   450.0         0.0  3271.0
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.7  -580.0   -88.6   580.0         0.0  1015.9
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0    32.0   570.0         0.0    32.0
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -256.7   525.0         0.0   256.7
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2    -5.7    12.2         0.0   121.7
+    963     -1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -13.2   -80.0   -80.0    80.0   I     0.0   180.7
+   1010     -1  1.001     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.8   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -7.8  -130.0   -38.1   130.0         0.0   165.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.3  -450.0    74.2   450.0         0.0    74.2
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   23  PRIORIDADE  1 Contingência de 995 para 964                  
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra   964 CAXIAS-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    598.24   995    206.35   964
+      2  2    1.0000 60.000     11.59   964     11.23   979
+      3  3    1.0000 60.000      0.05  1210**********   939
+      4  4    1.0000 60.000     17.21  1030    101.06   964
+      5  5    1.0000 60.000      0.08   939      0.17  1210
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00  1210      0.00  1210     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   23  PRIORIDADE  1 Contingência de 995 para 964                  
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra   964 CAXIAS-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   23  PRIORIDADE  1 Contingência de 995 para 964                  
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra   964 CAXIAS-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.8  -465.0  -113.2   465.0         0.0   889.2
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   14.6  -465.0  -134.0   465.0         0.0   877.3
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    7.0  -800.0  -661.8   800.0         0.0  1342.4
+    955      2  1.010   -66.5  3267.2  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0   -75.4   450.0         0.0  3268.1
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425    0.6  -580.0    11.3   580.0         0.0  1012.1
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525    0.1  -570.0    30.1   570.0         0.0    30.1
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    9.4  -525.0  -271.0   525.0         0.0   271.0
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939     -1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.2   -12.2    12.2    12.2   S     0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -14.4   -80.0   -79.7    80.0         0.0   180.6
+   1010     -1  0.999     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -14.0   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -8.3  -130.0   -34.4   130.0         0.0   164.6
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.7  -450.0    78.7   450.0         0.0    78.7
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   23  PRIORIDADE  1 Contingência de 995 para 964                  
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra   964 CAXIAS-RS525 Circ  1 (DESLIGAR)
+
+ MONITORACAO DE TENSAO
+
+ X----------------------X--------------------X--------X--------X--------X---------------X
+           BARRA                TENSAO        VIOLACAO SHUNTBAR SHUNTLIN    SEVERIDADE
+   NUM.     NOME     ARE   MIN    MOD.   MAX    (PU)    (Mvar)   (Mvar)
+ X-----X------------X---X------X------X------X--------X--------X--------X---------------X
+
+    976 GRAVAT-RS525   1  0.950  0.935  1.050   -0.015                   **
+    979 NSRITA-RS525   1  0.950  0.932  1.050   -0.018                   **
+    964 CAXIAS-RS525   1  0.950  0.932  1.050   -0.018                   **
+
+ ------ IND SEVER.       8.4 -------
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   24  PRIORIDADE  1 Contingência de 995 para 979                  
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra   979 NSRITA-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    643.42   995    226.90   979
+      2  2    1.0000 60.000     23.80   979     18.77   979
+      3  3    1.0000 60.000      4.95  1210    170.34  1210
+      4  4    1.0000 60.000      2.57  1210      0.42   979
+      5  5    1.0000 60.000      0.00  1210**********   939
+      6  6    1.0000 60.000     18.80  1030     37.86  1210
+      7  7    1.0000 60.000      0.11  1210**********   963
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      7  7  0 1.0000 60.000      0.00  1210      0.00  1210     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   24  PRIORIDADE  1 Contingência de 995 para 979                  
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra   979 NSRITA-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    955 CNOVOS-SC525   955 CNOVOS-SC525 DISC   0.970  1.010  1.040 CENT   -0.0  
+   1210 GRAVA2-RS230  1210 GRAVA2-RS230 DISC   0.970  1.000  1.020 CENT  400.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   24  PRIORIDADE  1 Contingência de 995 para 979                  
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra   979 NSRITA-RS525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.8  -465.0  -113.5   465.0         0.0   889.3
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   14.6  -465.0  -134.4   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    7.0  -800.0  -665.9   800.0         0.0  1344.5
+    955      2  1.010   -66.5  3263.8  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -118.8   450.0         0.0  3266.0
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425    0.4  -580.0    98.2   580.0         0.0  1016.8
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525    0.1  -570.0    30.0   570.0         0.0    30.0
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    9.3  -525.0  -266.9   525.0         0.0   266.9
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939     -1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.1   -12.2    12.2    12.2   S     0.0   122.2
+    963     -1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -12.3   -80.0   -80.0    80.0   I     0.0   180.7
+   1010     -1  1.000     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.4   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -7.0  -130.0   -38.5   130.0         0.0   165.5
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.9  -450.0    74.2   450.0         0.0    74.2
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   24  PRIORIDADE  1 Contingência de 995 para 979                  
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra   979 NSRITA-RS525 Circ  1 (DESLIGAR)
+
+ MONITORACAO DE TENSAO
+
+ X----------------------X--------------------X--------X--------X--------X---------------X
+           BARRA                TENSAO        VIOLACAO SHUNTBAR SHUNTLIN    SEVERIDADE
+   NUM.     NOME     ARE   MIN    MOD.   MAX    (PU)    (Mvar)   (Mvar)
+ X-----X------------X---X------X------X------X--------X--------X--------X---------------X
+
+    976 GRAVAT-RS525   1  0.950  0.933  1.050   -0.017                   **
+    979 NSRITA-RS525   1  0.950  0.919  1.050   -0.031                   ****
+
+ ------ IND SEVER.      12.4 -------
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   25  PRIORIDADE  1 Contingência de 995 para 1030                 
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra  1030 MACHAD-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    135.53  1030      0.00   938
+      2  2    1.0000 60.000      0.14   979      0.84   955
+      3  3    1.0000 60.000      0.00  1030      0.00   955
+      4  4    1.0000 60.000      0.00  1030      0.00   955
+      5  5    1.0000 60.000      0.00   959     11.48  -955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00  1030      0.00   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   25  PRIORIDADE  1 Contingência de 995 para 1030                 
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra  1030 MACHAD-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   25  PRIORIDADE  1 Contingência de 995 para 1030                 
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra  1030 MACHAD-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    8.5  -465.0  -116.0   465.0         0.0   889.6
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.1  -465.0  -134.8   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.0  -800.0  -692.8   800.0         0.0  1358.0
+    955     -2  1.010   -66.5  3242.4  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.5
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -2.1  -580.0  -209.7   580.0         0.0  1033.5
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.0  -570.0   123.6   570.0         0.0   123.6
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    7.7  -525.0  -241.3   525.0         0.0   241.3
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.5   -12.2   -11.1    12.2         0.0   122.1
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -11.4   -80.0   -78.9    80.0         0.0   180.2
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.4   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -7.0  -130.0   -42.1   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     2.9  -450.0    69.2   450.0         0.0    69.2
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   26  PRIORIDADE  1 Contingência de 995 para 1060                 
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra  1060 SSANTI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    734.70  1060      0.00   938
+      2  2    1.0000 60.000      5.16   995      5.26   955
+      3  3    1.0000 60.000      0.00  1030      0.00   955
+      4  4    1.0000 60.000      0.00  1210**********   955
+      5  5    1.0000 60.000      0.00  1030**********   955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00  1030      0.00   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   26  PRIORIDADE  1 Contingência de 995 para 1060                 
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra  1060 SSANTI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   26  PRIORIDADE  1 Contingência de 995 para 1060                 
+
+ CIRCUITO da Barra   995 ITA-----0425  p/ Barra  1060 SSANTI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525   12.0  -465.0  -107.0   465.0         0.0   888.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   17.2  -465.0  -133.3   465.0         0.0   877.2
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    8.7  -800.0  -594.5   800.0         0.0  1310.6
+    955     -2  1.010   -66.5  3260.6  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3291.5
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -2.4  -580.0   -60.1   580.0         0.0  1013.8
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.6  -570.0    39.8   570.0         0.0    39.8
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525   12.1  -525.0  -109.4   525.0         0.0   109.4
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -12.5   -12.2     0.4    12.2         0.0   121.6
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -11.1   -80.0   -76.2    80.0         0.0   179.0
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -12.8   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -5.4  -130.0   -36.5   130.0         0.0   165.1
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     6.1  -450.0    77.1   450.0         0.0    77.1
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   27  PRIORIDADE  1 Contingência de 999 para 896                  
+
+ CIRCUITO da Barra   999 IVAIPE-PR525  p/ Barra   896 CASCOE-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    159.83   896    185.55   896
+      2  2    1.0000 60.000      1.72   897      0.83   896
+      3  3    1.0000 60.000      0.00   896**********   939
+      4  4    1.0000 60.000      0.19   896      3.47   896
+      5  5    1.0000 60.000      0.00  1030      0.02   955
+      6  6    1.0000 60.000      0.00   939**********   955
+      7  7    1.0000 60.000      0.00   939**********   955
+      8  8    1.0000 60.000      0.00  1030**********   939
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      8  8  0 1.0000 60.000      0.00   938      0.00   938     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   27  PRIORIDADE  1 Contingência de 999 para 896                  
+
+ CIRCUITO da Barra   999 IVAIPE-PR525  p/ Barra   896 CASCOE-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   27  PRIORIDADE  1 Contingência de 999 para 896                  
+
+ CIRCUITO da Barra   999 IVAIPE-PR525  p/ Barra   896 CASCOE-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -114.5   465.0         0.0   889.4
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   14.7  -465.0    64.9   465.0         0.0   869.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.4  -800.0  -650.9   800.0         0.0  1337.1
+    955     -2  1.011   -66.5  3244.5  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3275.6
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.9  -580.0  -220.0   580.0         0.0  1035.6
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0     7.2   570.0         0.0     7.2
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -171.1   525.0         0.0   171.1
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2   -12.2    12.2         0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.8   -80.0   -78.3    80.0         0.0   179.9
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.0  -130.0   -40.7   130.0         0.0   166.1
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     4.4  -450.0    73.3   450.0         0.0    73.3
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   28  PRIORIDADE  1 Contingência de 999 para 933                  
+
+ CIRCUITO da Barra   999 IVAIPE-PR525  p/ Barra   933 AREIA--PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    439.25   999    111.51   999
+      2  2    1.0000 60.000      3.65  1060      7.19   999
+      3  3    1.0000 60.000      0.00   999**********   939
+      4  4    1.0000 60.000      0.00   939**********   939
+      5  5    1.0000 60.000      0.00  1030      0.04   955
+      6  6    1.0000 60.000      0.00  1030      0.00   955
+      7  7    1.0000 60.000      0.00   979     44.99  -955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      7  7  0 1.0000 60.000      0.00  1030      0.04   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   28  PRIORIDADE  1 Contingência de 999 para 933                  
+
+ CIRCUITO da Barra   999 IVAIPE-PR525  p/ Barra   933 AREIA--PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   28  PRIORIDADE  1 Contingência de 999 para 933                  
+
+ CIRCUITO da Barra   999 IVAIPE-PR525  p/ Barra   933 AREIA--PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.2  -465.0  -101.7   465.0         0.0   887.8
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   15.4  -465.0  -101.0   465.0         0.0   872.9
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    5.6  -800.0  -553.7   800.0         0.0  1292.6
+    955     -2  1.011   -66.5  3247.4  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3278.4
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -0.5  -580.0  -195.1   580.0         0.0  1030.6
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.1  -570.0    -3.5   570.0         0.0     3.5
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    9.6  -525.0  -122.8   525.0         0.0   122.8
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.6   -12.2   -12.2    12.2         0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.6   -80.0   -79.0    80.0         0.0   180.2
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.2   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -5.9  -130.0   -41.1   130.0         0.0   166.2
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     4.3  -450.0    80.1   450.0         0.0    80.1
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   29  PRIORIDADE  1 Contingência de 999 para 1060                 
+
+ CIRCUITO da Barra   999 IVAIPE-PR525  p/ Barra  1060 SSANTI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    268.69   999    153.57   999
+      2  2    1.0000 60.000      1.77  1060      3.08   999
+      3  3    1.0000 60.000      0.00   896      0.00   955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      3  3  0 1.0000 60.000      0.00   979      0.00  2458     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   29  PRIORIDADE  1 Contingência de 999 para 1060                 
+
+ CIRCUITO da Barra   999 IVAIPE-PR525  p/ Barra  1060 SSANTI-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.0  -465.0  -116.4   465.0         0.0   889.6
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.9  -465.0   -94.6   465.0         0.0   872.1
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.7  -800.0  -609.8   800.0         0.0  1317.6
+    955     -2  1.011   -66.5  3244.4  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3275.5
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.1  -580.0  -225.8   580.0         0.0  1036.9
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.3  -570.0    10.5   570.0         0.0    10.5
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.1  -525.0   -85.8   525.0         0.0    85.8
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.2   -12.2   -11.2    12.2         0.0   122.1
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -78.5    80.0         0.0   180.0
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.4  -130.0   -41.5   130.0         0.0   166.3
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.8  -450.0    76.4   450.0         0.0    76.4
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   30  PRIORIDADE  1 Contingência de 1010 para 947                 
+
+ CIRCUITO da Barra  1010 JLAC-B-SC230  p/ Barra   947 BIGUAC-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000      2.30   947     13.12   947
+      2  2    1.0000 60.000      0.05  1057      0.00  1010
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      2  2  0 1.0000 60.000      0.00  1010      0.00  1010     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   30  PRIORIDADE  1 Contingência de 1010 para 947                 
+
+ CIRCUITO da Barra  1010 JLAC-B-SC230  p/ Barra   947 BIGUAC-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -115.0   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.8  -465.0  -134.7   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -678.7   800.0         0.0  1350.9
+    955     -2  1.011   -66.5  3242.4  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.5
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.0  -580.0  -217.1   580.0         0.0  1035.0
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.3  -570.0    14.7   570.0         0.0    14.7
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.4  -525.0  -252.1   525.0         0.0   252.1
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2     0.9    12.2         0.0   121.6
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -76.9    80.0         0.0   179.3
+   1010     -1  0.993     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.5  -130.0   -42.0   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.5  -450.0    69.6   450.0         0.0    69.6
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   31  PRIORIDADE  1 Contingência de 1015 para 939                 
+
+ CIRCUITO da Barra  1015 JOINOR-SC230  p/ Barra   939 BLUMEN-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     86.07   939      5.97  1015
+      2  2    1.0000 60.000      0.58  1015      0.90  1015
+      3  3    1.0000 60.000      0.00  1015      0.00   960
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      3  3  0 1.0000 60.000      0.00   960      0.00   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   31  PRIORIDADE  1 Contingência de 1015 para 939                 
+
+ CIRCUITO da Barra  1015 JOINOR-SC230  p/ Barra   939 BLUMEN-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.0  -465.0  -114.9   465.0         0.0   889.4
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.7  -465.0  -134.8   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.4  -800.0  -659.4   800.0         0.0  1341.3
+    955     -2  1.011   -66.5  3245.6  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3276.6
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.0  -580.0  -221.5   580.0         0.0  1035.9
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.3  -570.0     7.4   570.0         0.0     7.4
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.4  -525.0  -253.2   525.0         0.0   253.2
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.1   -12.2    -0.1    12.2         0.0   121.6
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -79.0    80.0         0.0   180.2
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.5  -130.0   -42.1   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.5  -450.0    69.7   450.0         0.0    69.7
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   32  PRIORIDADE  1 Contingência de 1030 para 955                 
+
+ CIRCUITO da Barra  1030 MACHAD-SC525  p/ Barra   955 CNOVOS-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     67.77  1030    133.11   955
+      2  2    1.0000 60.000      0.28  1030**********   955
+      3  3    1.0000 60.000      5.84  1030     14.71   964
+      4  4    1.0000 60.000      0.02  1210      0.01   979
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      4  4  0 1.0000 60.000      0.00  1210      0.00   979     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   32  PRIORIDADE  1 Contingência de 1030 para 955                 
+
+ CIRCUITO da Barra  1030 MACHAD-SC525  p/ Barra   955 CNOVOS-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    955 CNOVOS-SC525   955 CNOVOS-SC525 DISC   0.970  1.010  1.040 CENT   -0.0  
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   32  PRIORIDADE  1 Contingência de 1030 para 955                 
+
+ CIRCUITO da Barra  1030 MACHAD-SC525  p/ Barra   955 CNOVOS-SC525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.0  -465.0  -115.1   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.7  -465.0  -134.7   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -678.6   800.0         0.0  1350.8
+    955      2  1.010   -66.5  3242.3  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -345.1   450.0         0.0  3260.6
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.1  -580.0  -220.8   580.0         0.0  1035.8
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.4  -570.0   -33.6   570.0         0.0    33.6
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.3  -525.0  -251.1   525.0         0.0   251.1
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2    -7.1    12.2         0.0   121.8
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -11.0   -80.0   -71.5    80.0         0.0   177.1
+   1010     -1  1.001     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.2   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.5  -130.0   -42.0   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.5  -450.0    69.6   450.0         0.0    69.6
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   33  PRIORIDADE  1 Contingência de 1047 para 1069                
+
+ CIRCUITO da Barra  1047 SOSORIO-230   p/ Barra  1069 XANXER-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     90.18  1047      3.10  1069
+      2  2    1.0000 60.000      0.83  1069      2.32  1069
+      3  3    1.0000 60.000      0.00  1047**********   963
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      3  3  0 1.0000 60.000      0.00   965      0.00   965     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   33  PRIORIDADE  1 Contingência de 1047 para 1069                
+
+ CIRCUITO da Barra  1047 SOSORIO-230   p/ Barra  1069 XANXER-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.2  -465.0  -115.0   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   14.0  -465.0  -135.4   465.0         0.0   877.5
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.6  -800.0  -676.2   800.0         0.0  1349.6
+    955     -2  1.011   -66.5  3243.3  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3274.3
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.0  -580.0  -211.4   580.0         0.0  1033.8
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0    12.2   570.0         0.0    12.2
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -247.2   525.0         0.0   247.2
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.2   -12.2   -10.8    12.2         0.0   122.1
+    963     -1  1.001     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -11.7   -80.0   -80.0    80.0   I     0.0   180.7
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.2   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -9.7  -130.0   -25.5   130.0         0.0   163.0
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     4.4  -450.0    83.5   450.0         0.0    83.5
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   34  PRIORIDADE  1 Contingência de 1057 para 1010                
+
+ CIRCUITO da Barra  1057 SIDERO-SC230  p/ Barra  1010 JLAC-B-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     62.50  1010     16.63  1057
+      2  2    1.0000 60.000      0.57  1010      0.46  1010
+      3  3    1.0000 60.000      0.00  1010      0.00  1010
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      3  3  0 1.0000 60.000      0.00  1057      0.00  1010     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   34  PRIORIDADE  1 Contingência de 1057 para 1010                
+
+ CIRCUITO da Barra  1057 SIDERO-SC230  p/ Barra  1010 JLAC-B-SC230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -115.0   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.8  -465.0  -134.7   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -680.3   800.0         0.0  1351.7
+    955     -2  1.011   -66.5  3242.9  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.9
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.0  -580.0  -216.3   580.0         0.0  1034.9
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.3  -570.0    12.3   570.0         0.0    12.3
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.4  -525.0  -252.0   525.0         0.0   252.0
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2    -7.3    12.2         0.0   121.8
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.9   -80.0   -76.6    80.0         0.0   179.2
+   1010     -1  0.997     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -12.9   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -6.5  -130.0   -41.9   130.0         0.0   166.4
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.5  -450.0    69.6   450.0         0.0    69.6
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   35  PRIORIDADE  1 Contingência de 1060 para 897                 
+
+ CIRCUITO da Barra  1060 SSANTI-PR525  p/ Barra   897 SCAXIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000    823.45   897      0.00   938
+      2  2    1.0000 60.000     10.66   999     75.31   896
+      3  3    1.0000 60.000      0.23   896      0.05  2458
+      4  4    1.0000 60.000      0.00  2458      0.00  2458
+      5  5    1.0000 60.000      0.00   976     31.30  -955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00  1030      0.02   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   35  PRIORIDADE  1 Contingência de 1060 para 897                 
+
+ CIRCUITO da Barra  1060 SSANTI-PR525  p/ Barra   897 SCAXIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   35  PRIORIDADE  1 Contingência de 1060 para 897                 
+
+ CIRCUITO da Barra  1060 SSANTI-PR525  p/ Barra   897 SCAXIA-PR525 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    8.7  -465.0  -118.0   465.0         0.0   889.9
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   28.0  -465.0   123.1   465.0         0.0   875.7
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.8  -800.0  -606.2   800.0         0.0  1315.9
+    955     -2  1.011   -66.5  3272.7  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3303.5
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.4  -580.0  -249.2   580.0         0.0  1042.2
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.4  -570.0    10.5   570.0         0.0    10.5
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    7.3  -525.0  -172.5   525.0         0.0   172.5
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.1   -12.2   -10.9    12.2         0.0   122.1
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -10.2   -80.0   -72.8    80.0         0.0   177.6
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.0   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -3.1  -130.0   -29.5   130.0         0.0   163.7
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     9.9  -450.0   106.0   450.0         0.0   106.0
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   36  PRIORIDADE  1 Contingência de 1069 para 1041                
+
+ CIRCUITO da Barra  1069 XANXER-SC230  p/ Barra  1041 PFUNDO-RS230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     44.48  1069      1.70  1069
+      2  2    1.0000 60.000      0.08  1069      0.49  1069
+      3  3    1.0000 60.000      0.00  1041      0.00  1069
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      3  3  0 1.0000 60.000      0.00   959      0.00   959     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   36  PRIORIDADE  1 Contingência de 1069 para 1041                
+
+ CIRCUITO da Barra  1069 XANXER-SC230  p/ Barra  1041 PFUNDO-RS230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -115.0   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.8  -465.0  -135.0   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -679.5   800.0         0.0  1351.3
+    955     -2  1.011   -66.5  3242.0  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.1
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.0  -580.0  -217.3   580.0         0.0  1035.1
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0     9.9   570.0         0.0     9.9
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -250.8   525.0         0.0   250.8
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2   -11.8    12.2         0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -11.1   -80.0   -80.0    80.0   I     0.0   180.7
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -7.3  -130.0   -25.8   130.0         0.0   163.1
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.8  -450.0    63.9   450.0         0.0    63.9
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   37  PRIORIDADE  1 Contingência de 1041 para 963                 
+
+ CIRCUITO da Barra  1041 PFUNDO-RS230  p/ Barra   963 MCLARO-RS230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     33.93  1041      0.00   938
+      2  2    1.0000 60.000      0.09   963      0.20  1069
+      3  3    1.0000 60.000      0.00  1030      0.02   955
+      4  4    1.0000 60.000      0.00  1030      0.00   955
+      5  5    1.0000 60.000      0.00   979     28.46  -955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      5  5  0 1.0000 60.000      0.00  1030      0.02   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   37  PRIORIDADE  1 Contingência de 1041 para 963                 
+
+ CIRCUITO da Barra  1041 PFUNDO-RS230  p/ Barra   963 MCLARO-RS230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   37  PRIORIDADE  1 Contingência de 1041 para 963                 
+
+ CIRCUITO da Barra  1041 PFUNDO-RS230  p/ Barra   963 MCLARO-RS230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -115.0   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.9  -465.0  -135.3   465.0         0.0   877.5
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.6  -800.0  -678.2   800.0         0.0  1350.6
+    955     -2  1.011   -66.5  3241.6  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3272.7
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.0  -580.0  -215.1   580.0         0.0  1034.6
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0    10.8   570.0         0.0    10.8
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -249.6   525.0         0.0   249.6
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2   -11.6    12.2         0.0   122.1
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230  -11.3   -80.0   -59.3    80.0         0.0   172.5
+   1010     -1  1.002     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -4.7  -130.0   -24.5   130.0         0.0   162.9
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     4.0  -450.0    64.9   450.0         0.0    64.9
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   38  PRIORIDADE  1 Contingência de 963 para 965                  
+
+ CIRCUITO da Barra   963 MCLARO-RS230  p/ Barra   965 CAXIAS-RS230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE CONVERGENCIA
+
+ OPCOES ATIVADAS: QLIM CTAP NEWT MOCT MOCG MOCF RCVG RMON RILH 80CO CSCA
+
+ X-----------X------X------X---------------X---------------X---------------X--X
+    ITERACAO          FREQ.  ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV    
+  FC  P  Q  V  M.O.   (Hz)       MW    NUM.     Mvar   NUM.  TENSAO %  NUM. FM 
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X--X
+
+      1  1    1.0000 60.000     66.80   963     28.49   965
+      2  2    1.0000 60.000      0.23   963      0.83   965
+      3  3    1.0000 60.000      0.00   965**********   939
+      4  4    1.0000 60.000      0.00   939**********   939
+      5  5    1.0000 60.000      0.00  1030      0.03   955
+      6  6    1.0000 60.000      0.00  1030      0.00   955
+      7  7    1.0000 60.000      0.00   976     35.91  -955
+ ................................................................
+
+
+
+
+ CONVERGENCIA FINAL
+
+ X-----------X------X------X---------------X---------------X---------------X
+    ITERACAO          FREQ. ERRO MAX BARRA  ERRO MAX BARRA  ERRO MAX  CONV  
+  FC  P  Q  V  M.O.   (Hz)      MW    NUM.     Mvar   NUM.  TENSAO %  NUM.  
+ X--X--X--X--X------X------X---------X-----X---------X-----X---------X-----X
+
+   0                             0.00     0      0.00     0
+      7  7  0 1.0000 60.000      0.00  1030      0.03   955     0.000     0
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   38  PRIORIDADE  1 Contingência de 963 para 965                  
+
+ CIRCUITO da Barra   963 MCLARO-RS230  p/ Barra   965 CAXIAS-RS230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE SHUNT COM CHAVEAMENTO AUTOMATICO
+
+ X------------------X------------------X-----X--------------------X----X------X--X
+     BARRA SHUNT      BARRA CONTROLADA         TENSAO CONTROLADA       SHUNT     
+  NUM.      NOME     NUM.      NOME       TP  MINIMA ATUAL  MAXIMA CONT  Mvar  ST
+ X-----X------------X-----X------------X-----X------X------X------X----X------X--X
+
+    995 ITA-----0425   995 ITA-----0425 DISC   0.970  1.020  1.040 CENT   -0.0  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ CONTINGENCIA   38  PRIORIDADE  1 Contingência de 963 para 965                  
+
+ CIRCUITO da Barra   963 MCLARO-RS230  p/ Barra   965 CAXIAS-RS230 Circ  1 (DESLIGAR)
+
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    856      1  1.018     0.0   882.0  1260.0         0.0     856
+  SEGRED-PR525    9.1  -465.0  -115.0   465.0         0.0   889.5
+    897      1  1.015     0.0   867.0  1240.0         0.0     897
+  SCAXIA-PR525   13.8  -465.0  -135.0   465.0         0.0   877.4
+    933      1  1.012     0.0  1168.0  1676.0         0.0     933
+  AREIA--PR525    6.5  -800.0  -680.6   800.0         0.0  1351.8
+    955     -2  1.011   -66.5  3242.2  1760.0   S     0.0     955
+  CNOVOS-SC525   -0.0  -450.0  -450.0   450.0   I     0.0  3273.3
+    995      1  1.020     0.0  1012.0  1450.0         0.0     995
+  ITA-----0425   -1.0  -580.0  -223.8   580.0         0.0  1036.5
+   1030      1  1.016     0.0     0.0  1140.0   I     0.0    1030
+  MACHAD-SC525   -0.2  -570.0     5.1   570.0         0.0     5.1
+   1060      1  1.023     0.0     0.0  1420.0   I     0.0    1060
+  SSANTI-PR525    8.5  -525.0  -250.7   525.0         0.0   250.7
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X------------X------X-----------------------X----X------X-------X
+     BARRA     TENSAO         GERACAO         LIM. PARTIC  BARRA
+  NUM.    TIPO   MOD     MIN     MW      MAX   MW    GER  CONTROL
+      NOME       ANG     MIN    Mvar     MAX  Mvar  EQUIV   MVA
+ X------------X------X-------X-------X-------X----X------X-------X
+
+    939      1  1.000     0.0   121.6 99999.0         0.0     939
+  BLUMEN-SC230  -13.3   -12.2   -12.2    12.2         0.0   122.2
+    963      1  1.000     0.0   162.0   360.0         0.0     963
+  MCLARO-RS230   -9.3   -80.0   -57.7    80.0         0.0   172.0
+   1010     -1  1.003     0.0   193.5 99999.0         0.0    1010
+  JLAC-B-SC230  -13.1   -19.3    19.3    19.3   S     0.0   194.5
+   1041      1  1.000     0.0   161.0   226.0         0.0    1041
+  PFUNDO-RS230   -5.5  -130.0   -44.3   130.0         0.0   167.0
+   1047      1  1.020     0.0     0.0  1078.0   I     0.0    1047
+  SOSORIO-230     3.8  -450.0    66.8   450.0         0.0    66.8
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ SUMARIO DE MONITORACAO  ( CASOS MAIS SEVEROS )
+
+
+ X----------- TENSAO -----------X----------------------------------------------X
+     CASO     NUMERO    INDICE
+   CONTING  VIOLACOES SEVERIDADE         IDENTIFICACAO DA CONTINGENCIA
+ X---------X---------X----------X----------------------------------------------X
+
+       20         2         15.1 Contingência de 964 para 976                  
+       24         2         12.4 Contingência de 995 para 979                  
+       16         3          9.8 Contingência de 955 para 964                  
+       23         3          8.4 Contingência de 995 para 964                  
+CEPEL - Centro de Pesquisas de Energia Eletrica - ANAREDE V11.00.01
+
+ SISTEMA TESTE SUL BRASILEIRO 32 BARRAS - CASO BASE                              
+
+ SUMARIO DOS CASOS NAO PROCESSADOS
+
+ PRIORIDADE  1
+
+
+ DIVERGENTES
+
+ X----X----X----X----X----X----X----X----X----X----X
+  CASO CASO CASO CASO CASO CASO CASO CASO CASO CASO
+ X----X----X----X----X----X----X----X----X----X----X
+
+    17
